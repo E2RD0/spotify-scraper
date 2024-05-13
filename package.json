@@ -1,0 +1,23 @@
+{
+  "name": "spotify-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build" : "tsc -b",
+    "start": "npm run build && node dist/index.js",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Estrada",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5"
+  }
+}
